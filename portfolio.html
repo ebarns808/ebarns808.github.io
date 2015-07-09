@@ -19,7 +19,7 @@
     <![endif]-->
   </head>
   <body>
-	<div class="container">
+	<div class="container" id="port-cont">
 	<div class="masthead">
 	<nav class="navbar nav-default">
 		<div class="container-fluid hidden-xs hidden-sm">
@@ -62,14 +62,14 @@
 	  <li role="presentation"><a href="#videos" data-toggle="tab">Videos</a></li>
 	</ul>
 	<div class="dropdown hidden-lg hidden-md">
-		  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">My Work
+		  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span id="port-label">More</span>
 				  <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
 		  </button>
-		  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-			  <li role="presentation" class="active"><a href="#ducks" data-toggle="tab">
+		  <ul class="dropdown-menu" id="port-drop" aria-labelledby="dropdownMenu1">
+			  <li class="active"><a href="#ducks" data-toggle="tab">
 			  Duck-Like Animals</a>
 			  </li>
-			  <li role="presentation"><a href="#jack_kapson" data-toggle="tab">Jack Kapson</a></li>
+			  <li><a href="#jack_kapson" data-toggle="tab">Jack Kapson</a></li>
 			  <li role="presentation"><a href="#my_work" data-toggle="tab">My Work</a></li>
 			  <li role="presentation"><a href="#videos" data-toggle="tab">Videos</a></li>
 		  </ul>
@@ -107,7 +107,7 @@
 								<p class="port-para">For this project, I mixed and mastered each tune myself. Aside from my technical work, I was also quite helpful in giving advice to help him improve his vocal sound.</p>
 				<div class="col-md-6 col-xs-12">
 					<h3>Moving Past it All</h3>
-					<audio class="audio" controls="controls">
+					<audio controls="controls">
 						<source src="images/audio/Moving%20Past%20it%20All.mp3" type="audio/mpeg">
 						Oops, your browser doesn't support HTML5 audio.
 					</audio>
@@ -129,11 +129,11 @@
 			<div class="row port-row">
 				<p class="port-para">NiftySwell is an electronic side project that I started nearly 3 years ago. I am proud to say that a few of these tunes, such as the Say My Name remix, have reached more than a thousand views. This project’s focus is on experimentation and is often the place where I tryout out different producing and mixing techniques that I learn of. Also, I think it’s important to note that I make my own synths for these projects and make a point of it to avoid using presets. I am a big fan of Native Instrument’s Massive, Kontakt, and Battery, but also use other plug-in’s such as Novation’s V-station.</p>
 				<div class="col-md-6 col-xs-12">
-					<h3>My City</h3>
+					<h3>Old Sounds, New Feels</h3>
 					<audio controls="controls">
-						<source src="images/audio/My%20City.wav" type="audio/mpeg">
+						<source src="images/audio/Old%20Sounds,%20New%20feels.mp3" type="audio/mpeg">
 						Oops, your browser doesn't support HTML5 audio.
-					</audio>
+					</audio>	
 				</div>
 				<div class="col-md-6 col-xs-12">				
 					<h3>Odeza 2nd Master</h3>
@@ -150,13 +150,6 @@
 						<source src="images/audio/Needsajob.wav" type="audio/mpeg">
 						Oops, your browser doesn't support HTML5 audio.
 					</audio>
-				</div>
-				<div class="col-md-6 col-xs-12">
-					<h3>Old Sounds, New Feels</h3>
-					<audio controls="controls">
-						<source src="images/audio/Old%20Sounds,%20New%20feels.mp3" type="audio/mpeg">
-						Oops, your browser doesn't support HTML5 audio.
-					</audio>	
 				</div>
 			</div>
 		</div>
@@ -192,4 +185,12 @@
     <script src="js/bootstrap.min.js"></script>
 	<script src="js/johnjs.js"></script>
   </body>
+  <script>
+	$('#port-drop li').click(function(){
+		$('#port-drop li').removeClass();
+		var tab_name = $(this).text();
+		$('#port-label').text(tab_name);
+		
+	});
+  </script>
 </html>
