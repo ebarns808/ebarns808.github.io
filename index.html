@@ -30,7 +30,6 @@
 	<div class="container"
 	<nav class="navbar nav-default">
 		<div class="container-fluid hidden-xs hidden-sm">
-		<div data-spy="affix" data-offset-top="60" data-offset-bottom="200">
 			<div id="navbar">
 			<ul hidden class="nav nav-pills nav-justified">
 				<li><a class="flyin-nav" href="index.html">HOME</a></li>
@@ -40,7 +39,6 @@
 			<!--	<li><a id="twenty-link" onclick="show_content('#twentytwenty')">20/20</a></li>-->
 			</ul>
 			</div>
-		</div>
 		</div>
 		<div class="dropdown hidden-lg hidden-md">
 		<div data-spy="affix" data-offset-top="60" data-offset-bottom="200">
@@ -62,7 +60,10 @@
 	  <h1 id="header1" class="name">John Micensky</h1>
 		  <h2 class="name">Sound Engineer</h2>
 	<div class="jumbotron anim" id="home_jumbo">
-	  		<p id="intro">My name is John Micensky and this is my personal website! On my site there is a collection of work I've created or contributed to as well as my resume and a little about myself.</p>
+	  		<p class="" id="intro">My name is John Micensky and this is my personal website! On my site there is a collection of work I've created or contributed to as well as my resume and a little about myself.</p>
+	</div>
+	<div class="jumboM hidden-md hidden-lg">
+		<p class="" id="introM">My name is John Micensky and this is my personal website! On my site there is a collection of work I've created or contributed to as well as my resume and a little about myself.</p>
 	</div>
 	</div>
 	</div>
@@ -72,11 +73,15 @@
 	<script src="js/johnjs.js"></script>
 	<script>
 		$('.name').hide();
+		$('.jumboM').hide();
+		$('.dropdown').hide();
 		//$('.nav').hide();
 		$('#enter_but').click(function(){
 			$('body').css('overflowY', 'scroll'); 
 			$('#entry').fadeOut('fast',function(){
+			$('.dropdown').fadeIn("fast");
 			$('.nav').fadeIn("fast");
+			$('.jumboM').fadeIn("slow");
 			$('.jumbotron').removeClass('anim');
 			$('.nav li a').removeClass('flyin-nav');
 			$('.name').fadeIn(1500);
