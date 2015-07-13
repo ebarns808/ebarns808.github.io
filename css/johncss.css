@@ -213,10 +213,13 @@ h1, h2{
 		width:98%;
 		text-align:center;
 	}
+<<<<<<< HEAD
 	
 	#lead{
 		padding-top:3%;
 	}
+=======
+>>>>>>> d44a60b70863b0dd3ed9170daa0da61d800be273
 /* JUMBOTRON */
 
 .anim{
@@ -276,6 +279,7 @@ footer{
 		padding-left:3%;
 		padding-right:3%;
 		background:    linear-gradient(45deg,
+<<<<<<< HEAD
 							rgba(10,200,100,0.6),
 							rgba(10,200,170,0.6)
 					);
@@ -290,6 +294,22 @@ footer{
 		background:  -moz-linear-gradient(45deg,
 							rgba(10,200,50,0.6),
 							rgba(10,200,170,0.6)
+=======
+							rgba(10,200,100,0.5),
+							rgba(10,200,170,0.5)
+					);
+		background:  -webkit-linear-gradient(45deg,
+							rgba(10,200,100,0.5),
+							rgba(10,200,170,0.5)
+					);
+		background:  -o-linear-gradient(45deg,
+							rgba(10,200,50,0.5),
+							rgba(10,200,170,0.5)
+					);
+		background:  -moz-linear-gradient(45deg,
+							rgba(10,200,50,0.5),
+							rgba(10,200,170,0.5)
+>>>>>>> d44a60b70863b0dd3ed9170daa0da61d800be273
 					);
 					/* url('images/congruent_pentagon3.png'); */
 /* 				background:     linear-gradient(
@@ -333,6 +353,7 @@ footer{
 	body{
 	    font-size:1.7em;
 		font-family: Georgia, Serif;
+<<<<<<< HEAD
 		background:  url('images/chicago_welcome6.png');
 		background-attachment: fixed;
 		background-position: center center;
@@ -347,6 +368,15 @@ footer{
 			    font-size:1.7em;
 		font-family: Georgia, Serif;
 		background:  url('images/johnopen5.gif');
+=======
+		background:      /* linear-gradient(
+
+						rgba(0, 0, 0, 0.70), 
+						rgba(0, 0, 0, 0.70)
+						),  */
+					/* url('images/congruent_pentagon.png'); */
+						url('images/chicago_welcome6.png');
+>>>>>>> d44a60b70863b0dd3ed9170daa0da61d800be273
 		background-attachment: fixed;
 		background-position: center center;
 		background-size: cover;
