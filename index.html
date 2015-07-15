@@ -24,7 +24,6 @@
 			<div id="enter">Enter</div>
 		</div>
 	</div>
-  
 	<div class="container-fluid welcome" id="welcome">
 	<div class="masthead">
 	<div class="container"
@@ -73,22 +72,19 @@
 	<script src="js/johnjs.js"></script>
 	<script>
 		$('.name').hide();
-<<<<<<< HEAD
 		$('.jumbotron').hide();
 		$('.jumboM').hide();
-=======
-		$('.jumboM').hide();
-		$('.jumbotron').hide();
->>>>>>> d44a60b70863b0dd3ed9170daa0da61d800be273
 		$('.dropdown').hide();
+
 		//$('.nav').hide();
 		$('#enter_but').click(function(){
+			$('.introheader').hide();
 			$('body').css('overflowY', 'scroll'); 
-			$('#entry').fadeOut('fast',function(){
+			$('#entry').fadeOut("fast",function(){
 			$('.dropdown').fadeIn("fast");
 			$('.nav').fadeIn("fast");
 			$('.jumboM').fadeIn("slow");
-			$('.jumbotron').fadeIn("slow");
+			$('.jumbotron').fadeIn("fast");
 			$('.jumbotron').removeClass('anim');
 			$('.nav li a').removeClass('flyin-nav');
 			$('.name').fadeIn(1500);

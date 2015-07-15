@@ -52,18 +52,29 @@ a:hover, a{
 .box{
 	padding-bottom:5%;
 }
+.img-wrapper{
+	padding-bottom:20px;
+}
 
 h1, h2{
 		text-align:center;
 		font-family: Georgia, Serif;
 	}
 
-#readmore{
+#readmore, #back-top{
 	text-align:center;
 	margin-top:2%;
 	margin-bottom:2%;
 	font-size:1.3em;
 	width:7em;
+}
+#back-top a{
+	color:white;
+	text-decoration:none;
+}
+#about-johnpic{
+	padding-bottom:3%;
+	height:100%;
 }
 /* RESUME CSS */
 #requests, #name-resume{
@@ -79,7 +90,9 @@ h1, h2{
 	text-align:center;
 	margin-bottom:5%;
 }
-
+#back-top{
+	margin:0 auto;
+}
 
 /* PORTFOLIO */
 .port{
@@ -160,7 +173,7 @@ h1, h2{
 		padding-left:3em;
 		padding-bottom:10em;
 	}
-	#resume a, h4 a{
+	.reslink, h4 a{
 		color:white;
 		text-decoration: underline;
 	}
@@ -213,13 +226,10 @@ h1, h2{
 		width:98%;
 		text-align:center;
 	}
-<<<<<<< HEAD
 	
 	#lead{
 		padding-top:3%;
 	}
-=======
->>>>>>> d44a60b70863b0dd3ed9170daa0da61d800be273
 /* JUMBOTRON */
 
 .anim{
@@ -229,7 +239,7 @@ h1, h2{
 .jumbotron{
 	background: url('images/johnIntro.jpg') center center;
 	margin-top:2em;
-	position:relative;
+	/* position:relative; */
 	width: 100%;
     height: 100%;
     background-size: cover;
@@ -279,37 +289,20 @@ footer{
 		padding-left:3%;
 		padding-right:3%;
 		background:    linear-gradient(45deg,
-<<<<<<< HEAD
-							rgba(10,200,100,0.6),
-							rgba(10,200,170,0.6)
+							rgba(10,200,100,0.65),
+							rgba(10,200,170,0.65)
 					);
 		background:  -webkit-linear-gradient(45deg,
-							rgba(10,200,100,0.6),
-							rgba(10,200,170,0.6)
+							rgba(10,200,100,0.65),
+							rgba(10,200,170,0.65)
 					);
 		background:  -o-linear-gradient(45deg,
-							rgba(10,200,50,0.6),
-							rgba(10,200,170,0.6)
+							rgba(10,200,100,0.65),
+							rgba(10,200,170,0.65)
 					);
 		background:  -moz-linear-gradient(45deg,
-							rgba(10,200,50,0.6),
-							rgba(10,200,170,0.6)
-=======
-							rgba(10,200,100,0.5),
-							rgba(10,200,170,0.5)
-					);
-		background:  -webkit-linear-gradient(45deg,
-							rgba(10,200,100,0.5),
-							rgba(10,200,170,0.5)
-					);
-		background:  -o-linear-gradient(45deg,
-							rgba(10,200,50,0.5),
-							rgba(10,200,170,0.5)
-					);
-		background:  -moz-linear-gradient(45deg,
-							rgba(10,200,50,0.5),
-							rgba(10,200,170,0.5)
->>>>>>> d44a60b70863b0dd3ed9170daa0da61d800be273
+							rgba(10,200,100,0.65),
+							rgba(10,200,170,0.65)
 					);
 					/* url('images/congruent_pentagon3.png'); */
 /* 				background:     linear-gradient(
@@ -342,6 +335,9 @@ footer{
 	#header1{
 		font-size:3em;
 	}
+	.introheader{
+		margin-top:12%;
+	}
 	#about p{
 		font-size:1.3em;
 		line-height:1.5em;
@@ -353,7 +349,6 @@ footer{
 	body{
 	    font-size:1.7em;
 		font-family: Georgia, Serif;
-<<<<<<< HEAD
 		background:  url('images/chicago_welcome6.png');
 		background-attachment: fixed;
 		background-position: center center;
@@ -368,15 +363,6 @@ footer{
 			    font-size:1.7em;
 		font-family: Georgia, Serif;
 		background:  url('images/johnopen5.gif');
-=======
-		background:      /* linear-gradient(
-
-						rgba(0, 0, 0, 0.70), 
-						rgba(0, 0, 0, 0.70)
-						),  */
-					/* url('images/congruent_pentagon.png'); */
-						url('images/chicago_welcome6.png');
->>>>>>> d44a60b70863b0dd3ed9170daa0da61d800be273
 		background-attachment: fixed;
 		background-position: center center;
 		background-size: cover;
@@ -407,31 +393,25 @@ footer{
 
 /*SM SCREENS */
 /*SM SCREENS */
-@media (max-width: 991px){
-	body{
-		font-size:1.6em;
-		background-attachment: fixed;
-		background-position: center center;
-		font-size:1.5em;
-			background: url('images/chicago_welcome6.png');
-		   background-repeat: no-repeat;
-		   background-size: cover;
-		  -webkit-background-size: cover;
-		  -moz-background-size: cover;
-		  -o-background-size: cover;
-	
+@media (min-width: 700px) and (max-width: 991px){
+
+	#enter_but{
+	   text-align:center;
+	   position:absolute;
+	   left:45%;
+	   top:50%; 
 	}
 }
 
 /* XS SCREENS */
 /* XS SCREENS */
-@media (max-width: 768px){
+@media (max-width: 991px){
 	body{
 		min-height:1000px;
 		font-size:1.5em;
 		background-attachment: fixed;
 		background-position: center center;
-			background: url('images/chicago_welcome6m.png');
+			background: url('images/chicago_welcomeM.png');
 		   background-repeat: repeat;
 		   background-size: cover;
 		  -webkit-background-size: cover;
@@ -500,7 +480,6 @@ footer{
 		background: rgba(0,0,0,0.6);
 		border:solid;
 		border-color:white;
-		border-radius: 15px;
 		border-width:2px;
 		margin-top:2.5%;
 	}
@@ -515,5 +494,7 @@ footer{
 		padding-left:2.5%;
 		padding-right:2.5%;
 		margin-bottom:4%;
+		height:100%;
+		width:100%;
 	}
 }
