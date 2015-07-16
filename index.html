@@ -19,12 +19,20 @@
     <![endif]-->
   </head>
   <body style="overflow-y: hidden;">
+ 	
 	<div class="container" id="entry">
+		 <button id="index-button" onclick="aud_play()"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
+		<h1 id="welcome">Welcome</h1>
+		  <!-- <button id="index-button" onclick="aud_play()"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button> -->
 		<div id="enter_but">
 			<div id="enter">Enter</div>
 		</div>
+		 <!-- <button id="index-button" onclick="aud_play()"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button> -->
+		<audio id="index-song" autoplay="true">
+			<source src="images/audio/Needsajob.wav" type="audio/mpeg">
+			Oops, your browser doesn't support HTML5 audio.
+		</audio>
 	</div>
-	<div class="container-fluid welcome" id="welcome">
 	<div class="masthead">
 	<div class="container"
 	<nav class="navbar nav-default">
@@ -65,12 +73,14 @@
 		<p class="" id="introM">My name is John Micensky and this is my personal website! On my site there is a collection of work I've created or contributed to as well as my resume and a little about myself.</p>
 	</div>
 	</div>
+	<button class="page-button" id="index-button" onclick="aud_play()"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
 	</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 	<script src="js/johnjs.js"></script>
 	<script>
+		$('.page-button').hide();
 		$('.name').hide();
 		$('.jumbotron').hide();
 		$('.jumboM').hide();
@@ -88,18 +98,26 @@
 			$('.jumbotron').removeClass('anim');
 			$('.nav li a').removeClass('flyin-nav');
 			$('.name').fadeIn(1500);
+			$('.page-button').fadeIn("slow");
 			});
 
 		});
 		
-		$('#enter').mouseover(function(){
-			$('body').addClass('loaded');
-			//$('.name').fadeIn("fast");
-		});
-		$('#enter').mouseout(function(){
-			$('body').removeClass();
-			//$('.name').fadeOut("fast");
-		});
+		function aud_play() {
+			
+		  var myAudio = document.getElementById("index-song");
+		  var myBut = document.getElementById("index-button");
+		  if (myAudio.paused) {
+			myAudio.play();
+			$('#index-button').html('<span class="glyphicon glyphicon-play" aria-hidden="true"></span>');
+			$('.page-button').html('<span class="glyphicon glyphicon-play" aria-hidden="true"></span>');
+		  } else {
+			myAudio.pause();
+			$('#index-button').html('<span class="glyphicon glyphicon-pause" aria-hidden="true"></span>');
+			$('.page-button').html('<span class="glyphicon glyphicon-pause" aria-hidden="true"></span>');
+		  }
+		}
 	</script>
+
   </body>
 </html>

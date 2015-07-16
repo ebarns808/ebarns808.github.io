@@ -18,13 +18,32 @@ a:hover, a{
 #entry{
 	text-align:center;
 }
+#welcome{
+	/* margin-top:15%; */
+	font-size:4em;
+}
+#index-song{
+	display:none;
+}
+#index-button{
+	text-align:center;
+	font-size:2em;
+	background:transparent;
+	border:none;
+	display:inline-block;
+}
+.page-button{
+	color:white;
+	margin-top:1%;
+	margin-left:3%;
+}
 #enter{
 	width:6em;
-	background-color:rgba(255,255,255,0.6);
+	background-color:transparent;
 	
 	border-color:white;
 	border: outset;
-	border-width:5px;
+	border-width:3px;
 	font-size:2em;
 	color:white;
 	text-shadow: 2px 2px 4px #000000;
@@ -37,9 +56,9 @@ a:hover, a{
 }
 
 #enter:hover{
-	background-color:white;
-	color:black;
-	text-shadow: 2px 2px 4px black;
+	background-color:rgba(255,255,255,0.8);
+	color:rgb(50,50,50);
+	text-shadow: 1px 1px 2px black;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-transform:translateZ(0) scale(1.05); /* Safari and Chrome */
@@ -74,7 +93,7 @@ h1, h2{
 }
 #about-johnpic{
 	padding-bottom:3%;
-	height:100%;
+	height:75%;
 }
 /* RESUME CSS */
 #requests, #name-resume{
@@ -167,9 +186,15 @@ h1, h2{
 		background:     linear-gradient(
 							rgba(150,110,220,0.5),
 							rgba(50,150,230,0.5));
-							
-				
-					/* url('images/congruent_pentagon.jpg'); */
+		background:  -webkit-linear-gradient(
+							rgba(150,110,220,0.5),
+							rgba(50,150,230,0.5));
+		background:  -o-linear-gradient(
+							rgba(150,110,220,0.5),
+							rgba(50,150,230,0.5));
+		background:  -moz-linear-gradient(
+							rgba(150,110,220,0.5),
+							rgba(50,150,230,0.5));
 		padding-left:3em;
 		padding-bottom:10em;
 	}
@@ -343,7 +368,9 @@ footer{
 		line-height:1.5em;
 	}
 	#entry{
-		height:1000px;
+		height:600px;
+		width:300px;
+		margin-top:10%;
 	}
 
 	body{
@@ -359,7 +386,7 @@ footer{
 		  -o-background-size: cover; 
 		 overflow-y: scroll;
 	}
-	body.loaded{
+/* 	body.loaded{
 			    font-size:1.7em;
 		font-family: Georgia, Serif;
 		background:  url('images/johnopen5.gif');
@@ -371,13 +398,13 @@ footer{
 		  -moz-background-size: cover;
 		  -o-background-size: cover; 
 		 overflow-y: scroll;
-	}
+	} */
 	#enter_but{
 	   text-align:center;
-	   position:absolute;
-	   left:45%;
-	   top:50%; 
-	}
+	   display:inline-block;
+	   margin-top:10%;
+	   margin:0 auto;
+		}
 	#aboutbox{
 		padding-left:3%;
 		padding-right:3%;
@@ -393,7 +420,7 @@ footer{
 
 /*SM SCREENS */
 /*SM SCREENS */
-@media (min-width: 700px) and (max-width: 991px){
+@media (min-width: 70	0px) and (max-width: 991px){
 
 	#enter_but{
 	   text-align:center;
