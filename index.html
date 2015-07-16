@@ -21,7 +21,7 @@
   <body style="overflow-y: hidden;">
  	
 	<div class="container" id="entry">
-		 <button id="index-button" onclick="aud_play()"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
+		 <button id="index-button" onclick="aud_play()"><span class="glyphicon glyphicon-pause" aria-hidden="true"></span></button>
 		<h1 id="welcome">Welcome</h1>
 		  <!-- <button id="index-button" onclick="aud_play()"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button> -->
 		<div id="enter_but">
@@ -109,12 +109,12 @@
 		  var myBut = document.getElementById("index-button");
 		  if (myAudio.paused) {
 			myAudio.play();
-			$('#index-button').html('<span class="glyphicon glyphicon-play" aria-hidden="true"></span>');
-			$('.page-button').html('<span class="glyphicon glyphicon-play" aria-hidden="true"></span>');
-		  } else {
-			myAudio.pause();
 			$('#index-button').html('<span class="glyphicon glyphicon-pause" aria-hidden="true"></span>');
 			$('.page-button').html('<span class="glyphicon glyphicon-pause" aria-hidden="true"></span>');
+		  } else {
+			myAudio.pause();
+			$('#index-button').html('<span class="glyphicon glyphicon-play" aria-hidden="true"></span>');
+			$('.page-button').html('<span class="glyphicon glyphicon-play" aria-hidden="true"></span>');
 		  }
 		}
 	</script>
