@@ -189,10 +189,10 @@ h1, h2{
 		border:ridge;
 		height:100%;
 		background:     linear-gradient(
-							rgba(150,110,220,0.5),
+							rgba(50,150,230,0.7),
 							rgba(50,150,230,0.5));
 		background:  -webkit-linear-gradient(
-							rgba(150,110,220,0.5),
+							rgba(50,150,230,0.7),
 							rgba(50,150,230,0.5));
 		background:  -o-linear-gradient(
 							rgba(50,150,230,0.7),
