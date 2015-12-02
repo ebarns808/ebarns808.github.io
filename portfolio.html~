@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>John Micenksy</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/johncss.css" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<div class="container" id="port-cont">
+	<div class="masthead">
+	<nav class="navbar nav-default">
+		<div class="container-fluid hidden-xs hidden-sm">
+		<!-- <div data-spy="affix" data-offset-top="60" data-offset-bottom="200"> -->
+			<div id="navbar">
+			<ul class="nav nav-pills nav-justified">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT ME</a></li>
+				<li><a href="portfolio.html">PORTFOLIO</a></li>
+				<li><a href="resume.html">RESUME</a></li>
+			<!--	<li><a id="twenty-link" onclick="show_content('#twentytwenty')">20/20</a></li>-->
+			</ul>
+			<!-- </div> -->
+		</div>
+		</div>
+		<div class="dropdown hidden-lg hidden-md">
+		<div data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+		  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				  <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+		  </button>
+		  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT ME</a></li>
+				<li><a href="portfolio.html">PORTFOLIO</a></li>
+				<li><a href="resume.html">RESUME</a></li>
+		  </ul>
+		</div>
+		</div>
+	</nav>
+	</div>
+	<div id="content" class="container">
+	<article>
+	
+	<ul class="nav nav-tabs hidden-sm hidden-xs">
+	  <li role="presentation" class="active"><a href="#ducks" data-toggle="tab">
+	  Duck-Like Animals</a>
+	  </li>
+	  <li role="presentation"><a href="#jack_kapson" data-toggle="tab">Jack Kapson</a></li>
+	  <li role="presentation"><a href="#my_work" data-toggle="tab">Niftyswell</a></li>
+	  <li role="presentation"><a href="#videos" data-toggle="tab">Videos</a></li>
+	  <li role="presentation"><a href="#opera" data-toggle="tab">Opera</a></li>
+	</ul>
+	<div class="dropdown hidden-lg hidden-md">
+		  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span id="port-label">More</span>
+				  <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+		  </button>
+		  <ul class="dropdown-menu" id="port-drop" aria-labelledby="dropdownMenu1">
+			  <li class="active"><a href="#ducks" data-toggle="tab">
+			  Duck-Like Animals</a>
+			  </li>
+			  <li role="presentation"><a href="#jack_kapson" data-toggle="tab">Jack Kapson</a></li>
+			  <li role="presentation"><a href="#my_work" data-toggle="tab">Niftyswell</a></li>
+			  <li role="presentation"><a href="#videos" data-toggle="tab">Videos</a></li>
+			  <li role="presentation"><a href="#opera" data-toggle="tab">Opera</a></li>
+		  </ul>
+	</div>
+	<div id="my_tab" class="tab-content">
+	<div class="tab-pane active" id="ducks">
+		<div class="row tabs">
+			
+			<h3 class="port-head" id="port-h3">Duck-Like Animals</h3>
+			<h4 class="port-head"><i>Engineer - Mixing & Mastering - Drummer - <a href="https://soundcloud.com/levi-hc">Soundcloud</a></i></h4>
+			<p class="port-para">I’ve done quite a bit of work on these tunes as a performer and engineer. In each tune you will hear my drumming as well as my mixing and mastering skills.</p>
+			<div class="row port-row">
+			<div class="col-md-6">
+			<h3>Gliding Hours</h3>
+			<audio controls="controls">
+				<source preload="none" src="images/audio/Gliding%20Hours.mp3" type="audio/mpeg">
+				Oops, your browser doesn't support HTML5 audio. Check out <a href="https://soundcloud.com/levi-hc">Soundcloud</a> instead!
+			</audio>
+			</div>
+			<div class="col-md-6">
+			<h3>Falling Apart</h3>
+			<audio controls="controls">
+				<source preload="none" src="images/audio/Falling%20Apart.mp3" type="audio/mpeg">
+				Oops, your browser doesn't support HTML5 audio. Check out <a href="https://soundcloud.com/levi-hc">Soundcloud</a> instead!
+			</audio>
+			</div>
+			<p class="port-note"><ul><li>Gear Used: Focusrite 18i20, AKG D112 MKII, AKG C451 EB, Shure SM57, Shure Beta 56A, Neumann U87, and AKG414.</li></ul></p>
+
+			</div>
+		</div>
+	</div>
+	<div class="tab-pane" id="jack_kapson">
+		<div class="row tabs">
+			<h3 class="port-head" id="port-h3">Jack Kapson</h3>
+			<h4 class="port-head"><i>Engineer - Mixing & Mastering</i></h4>
+			<div class="row port-row">
+								<p class="port-para">For this project, I mixed and mastered each tune myself. Aside from my technical work, I was also quite helpful in giving advice to help him improve his vocal sound.</p>
+				<div class="col-md-6 col-xs-12">
+					<h3>Moving Past it All</h3>
+					<audio  preload="none" controls="controls">
+						<source src="images/audio/Moving%20Past%20it%20All.mp3" type="audio/mpeg">
+						Oops, your browser doesn't support HTML5 audio.
+					</audio>
+				</div>
+				<div class="col-md-6 col-xs-12">
+					<h3>West Coast Way</h3>
+					<audio preload="none" controls="controls">
+						<source src="images/audio/West%20Coast%20Way.mp3" type="audio/mpeg">
+						Oops, your browser doesn't support HTML5 audio. Check out <a href="https://soundcloud.com/levi-hc">Soundcloud</a> instead!
+					</audio>
+				</div>
+	                        <p class="port-note"><ul><li>Gear Used: Yamaha O2R96, Neumann TLM102, and Neumann U87.</li></ul></p>
+
+			</div>
+		</div>
+	</div>
+	<div class="tab-pane" id="my_work">
+		<div class="row tabs">
+			<h3 class="port-head" id="port-h3">Niftyswell</h3>
+			<h4 class="port-head"><i>Producer - Engineer -  Mixing & Mastering</i></h4>
+			<div class="row port-row">
+				<p class="port-para">NiftySwell is an electronic side project that I started nearly 3 years ago. I am proud to say that a few of these tunes, such as the Say My Name remix, have reached more than a thousand views. This project’s focus is on experimentation and is often the place where I tryout out different producing and mixing techniques that I learn of. Also, I think it’s important to note that I make my own synths for these projects and make a point of it to avoid using presets. I am a big fan of Native Instrument’s Massive, Kontakt, and Battery, but also use other plug-in’s such as Novation’s V-station.</p>
+				<div class="col-md-6 col-xs-12">
+					<h3>Old Sounds, New Feels</h3>
+					<audio controls="controls">
+						<source preload="none" src="images/audio/Old%20Sounds,%20New%20feels.mp3" type="audio/mpeg">
+						Oops, your browser doesn't support HTML5 audio.
+					</audio>	
+				</div>
+				<div class="col-md-6 col-xs-12">				
+					<h3>Say My Name Remix</h3>
+					<audio controls="controls">
+						<source preload="none" src="images/audio/Odesza%202ndMaster%20(1).mp3" type="audio/mpeg">
+						Oops, your browser doesn't support HTML5 audio.
+					</audio>
+				</div>
+			</div>
+			<div class="row port-row">
+				<div class="col-md-6 col-xs-12">
+					<h3>Mr. Needsajob</h3>
+					<audio controls="controls">
+						<source preload="none" src="images/audio/Needsajob.mp3" type="audio/mpeg">
+						Oops, your browser doesn't support HTML5 audio.
+					</audio>
+				</div>
+                                <p class="port-note"><ul><li>Gear Used: Yamaha O2R96, Neumann TLM102, and Neumann U87.</li></ul></p>
+
+			</div>
+
+		</div>
+	</div>
+	<div class="tab-pane" id="videos">
+		<div class="row tabs">
+			<h3 class="port-head" id="port-h3">Videos</h3>
+			<div class="row port-row">
+				<div class="col-md-12 col-xs-12">
+					<h3>My City</h3>
+					<h4 class="port-head"><i>Songwriter - Engineer -  Mixing & Mastering</i></h4>
+					<div class="embed-responsive embed-responsive-16by9">
+					  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NsOVKXWKiAw" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<p class="port-para">DePaul University has an extremely long winter break, and a handful of my friends were saying we should take advantage of it by doing a project. With the help of cinematography majors, Ted Holmwood, Davis Bergstrom, and Kyle Miller, two simple songs that I wrote turned into two beautiful videos. Of course this would not have sounded nearly as amazing if it weren’t for Jack Kapson’s tasteful guitar playing. I am proud to say I wrote these tunes, set up all of the microphones, mixed them, and mastered them to the products they are now.</p>
+				</div>
+			</div>
+			<div class="row port-row">
+				<div class="col-md-12 col-xs-12" id="chris-vid">
+					<h3>Chris Shuttlesworth</h3>
+					<h4 class="port-head"><i>Recording Crew Member</i></h4>
+					<div class="embed-responsive embed-responsive-16by9">
+					  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/j2G6A8GQH44" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<p class="port-para">A few weeks before Chris’ recital, upper-classmen Jeremy Carrasco asked me if I could help him set up for a production for his friend. I had no idea it would turn out looking this smooth. Aside from the set-up, I was a helping hand in making mixing decisions for separate tracks during the session. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+        <div class="tab-pane" id="opera">
+                <div class="row tabs">
+                        <h3 class="port-head" id="port-h3">Opera</h3>
+                        <div class="row port-row">
+                                <div class="col-md-12 col-xs-12">
+                                        <p class="port-para">This year I have had the opportunity to work with a handful of very talented Opera vocalists. Emma Witbolsfeugen and LaRob Peyton really stood out with their abilities to effectively communicate the emotion in their pieces. These recordings differ from the others becasue this genre does not call for the use of compression. While compression can be a helpful tool for increasing the overall volume of a recording, it decreases the dynamic range of the recording. In classical music, it is important not to alter the dynamics of a performance for these dynamics play a crucial role in achieving the varying emotions in the piece. I also used this opportunity to try out a microphone technique that I had not previously done. I chose to record the vocals with a Mid-Side microphone arrangement, set up about 10 feet from the stage. In addition to the Mid-Side setup, I added two stereo array microphones much closer to the piano. This technique is most apparent in Emma’s recording, which features a reasonable amount of room sound combined with a quite wide and clear representation of the piano.</p>
+                                </div>
+                        </div>
+                        <div class="row port-row">
+                                <div class="col-md-6 col-xs-12">
+					<h3>5Net toko, tot kto znal</h3>
+					<audio controls="controls">
+						<source preload="none" src="images/audio/5Net_toko_tot_kto_znal.wav" type="audio/mpeg">
+						Oops, your browser doesn't support HTML5 audio.
+					</audio>	
+				</div>
+                                <div class="col-md-6 col-xs-12">
+					<h3>Hence, Iris, Hence Away. Emma W</h3>
+					<audio controls="controls">
+						<source preload="none" src="images/audio/Hence_Iris_Hence Away Emma_W.mp3" type="audio/mpeg">
+						Oops, your browser doesn't support HTML5 audio.
+					</audio>	
+				</div>
+                                <p class="port-note"><ul><li>Gear Used: Neumann U87, Shure KSM44A, and Neumann TLM102.</li></ul></p>
+                        </div>
+                </div>
+        </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/johnjs.js"></script>
+  </body>
+  <script>
+	$('#port-drop li').click(function(){
+		$('#port-drop li').removeClass();
+		var tab_name = $(this).text();
+		$('#port-label').text(tab_name);
+		
+	});
+  </script>
+</html>

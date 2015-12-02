@@ -104,6 +104,11 @@ h1, h2{
 	font-size:1.7em;
 	margin-top:5%;
 }
+#headinfo{
+	text-align:center;
+	font-size:1em;
+	margin-top:2%;
+}
 #obj{
 	font-size:1.1em;
 	text-align:center;
@@ -190,11 +195,12 @@ h1, h2{
 							rgba(150,110,220,0.5),
 							rgba(50,150,230,0.5));
 		background:  -o-linear-gradient(
-							rgba(150,110,220,0.5),
+							rgba(50,150,230,0.7),
 							rgba(50,150,230,0.5));
 		background:  -moz-linear-gradient(
-							rgba(150,110,220,0.5),
+							rgba(50,150,230,0.7),
 							rgba(50,150,230,0.5));
+
 		padding-left:3em;
 		padding-bottom:10em;
 	}
@@ -247,6 +253,14 @@ h1, h2{
 		padding-left:3%;
 		
 	}
+	.port-note{
+		text-align:center;
+		font-size:1em;
+		margin-top:10%;
+		padding-right:5%;
+		padding-left:3%;
+		
+	}
 	.port-row{
 		width:98%;
 		text-align:center;
@@ -260,8 +274,15 @@ h1, h2{
 .anim{
 	transform:translate(2000px,0px);
 }
-
 .jumbotron{
+	border-color: white;
+	border-style: solid;
+	border-width:5px;
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+.j1{
 	background: url('images/johnIntro.jpg') center center;
 	margin-top:2em;
 	/* position:relative; */
@@ -277,6 +298,37 @@ h1, h2{
 		-o-transition: all 1s ease;
 		transition: all 1s ease;		
 }
+.j2{
+	background: url('images/CRCSSLphot.JPG') center center;
+	/* position:relative; */
+	width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+	color:white;
+	margin-bottom:0;
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+			-moz-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		transition: all 1s ease;		
+}
+.j3{
+	background: url('images/DePaulStudioPic.JPG') center center;
+	/* position:relative; */
+	width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+	color:white;
+	margin-bottom:0;
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+			-moz-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		transition: all 1s ease;		
+}
+
 
 footer{
 	margin-top:4em;
@@ -289,20 +341,20 @@ footer{
 	color: white;
 	text-shadow: 1px 1px 1px black;
 	background:  -webkit-linear-gradient(20deg,
-						rgba(120,50,150,0.6),
-						rgba(200, 0, 20,0.6)
+						rgba(0, 0, 50,0.6),
+						rgba(0, 0, 50,0.6)
 				);
 	background:  -o-linear-gradient(20deg,
-						rgba(120,50,150,0.6),
-						rgba(200, 0, 20,0.6)
+						rgba(0, 0, 50,0.6),
+						rgba(0, 0, 50,0.6)
 				);
 	background:  -moz-linear-gradient(20deg,
-						rgba(120,50,150,0.6),
-						rgba(200, 0, 20,0.6)
+						rgba(0, 0, 50,0.6),
+						rgba(0, 0, 50,0.6)
 				);
 	background: linear-gradient(20deg,
-						rgba(120,50,150,0.6),
-						rgba(200, 0, 20,0.6)
+						rgba(0, 0, 50,0.6),
+						rgba(0, 0, 50,0.6)
 						
 					);
 }
@@ -314,20 +366,20 @@ footer{
 		padding-left:3%;
 		padding-right:3%;
 		background:    linear-gradient(45deg,
-							rgba(10,200,100,0.65),
-							rgba(10,200,170,0.65)
+							rgba(10,200,170,0.5),
+							rgba(10,200,170,0.9)
 					);
 		background:  -webkit-linear-gradient(45deg,
-							rgba(10,200,100,0.65),
-							rgba(10,200,170,0.65)
+							rgba(10,200,170,0.5),
+							rgba(10,200,170,0.9)
 					);
 		background:  -o-linear-gradient(45deg,
-							rgba(10,200,100,0.65),
-							rgba(10,200,170,0.65)
+							rgba(10,200,170,0.5),
+							rgba(10,200,170,0.9)
 					);
 		background:  -moz-linear-gradient(45deg,
-							rgba(10,200,100,0.65),
-							rgba(10,200,170,0.65)
+							rgba(10,200,170,0.5),
+							rgba(10,200,170,0.9)
 					);
 					/* url('images/congruent_pentagon3.png'); */
 /* 				background:     linear-gradient(

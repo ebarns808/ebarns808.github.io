@@ -1,0 +1,579 @@
+/* JOHN MICENSKY CSS SHEET */
+
+/* CSS FOR ALL SIZES */
+body{
+		font-family: Georgia, Serif;
+}
+
+body .container{
+	margin-bottom: 2%;
+}
+body{
+	overflow-x:hidden;
+}
+a:hover, a{
+	color: black;
+	text-decoration: none;
+}
+#entry{
+	text-align:center;
+}
+#welcome{
+	/* margin-top:15%; */
+	font-size:4em;
+}
+#index-song{
+	display:none;
+}
+#index-button{
+	text-align:center;
+	font-size:2em;
+	background:transparent;
+	border:none;
+	display:inline-block;
+}
+.page-button{
+	color:white;
+	margin-top:1%;
+	margin-left:3%;
+}
+#enter{
+	width:6em;
+	background-color:transparent;
+	
+	border-color:white;
+	border: outset;
+	border-width:3px;
+	font-size:2em;
+	color:white;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	-webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#enter:hover{
+	background-color:rgba(255,255,255,0.8);
+	color:rgb(50,50,50);
+	text-shadow: 1px 1px 2px black;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform:translateZ(0) scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.20); /* IE 9 */
+    -o-transform:translatZ(0) scale(1.05); /* Opera */
+    transform:translatZ(0) scale(1.05);
+	    box-shadow: 7px 7px 5px #1B1B1B;
+}
+.box{
+	padding-bottom:5%;
+}
+.img-wrapper{
+	padding-bottom:20px;
+}
+
+h1, h2{
+		text-align:center;
+		font-family: Georgia, Serif;
+	}
+
+#readmore, #back-top{
+	text-align:center;
+	margin-top:2%;
+	margin-bottom:2%;
+	font-size:1.3em;
+	width:7em;
+}
+#back-top a{
+	color:white;
+	text-decoration:none;
+}
+#about-johnpic{
+	padding-bottom:3%;
+	height:75%;
+}
+/* RESUME CSS */
+#requests, #name-resume{
+	text-align: center;
+}
+#objective{
+	text-align:center;
+	font-size:1.7em;
+	margin-top:5%;
+}
+#headinfo{
+	text-align:center;
+	font-size:1em;
+	margin-top:2%;
+}
+#obj{
+	font-size:1.1em;
+	text-align:center;
+	margin-bottom:5%;
+}
+#back-top{
+	margin:0 auto;
+}
+
+/* PORTFOLIO */
+.port{
+	width:100%;
+}
+.port-head{
+	text-align:center;
+}
+#port-h3{
+	font-size:3em;
+}
+.audio{
+	text-align:center;
+	margin:0 auto;
+}
+	.nav-tabs>li>a:hover{
+		color:rgb(240,240,240);
+		text-shadow: 3px 3px 3px black;
+		-webkit-transition: all .3s ease;
+		-moz-transition: all .3s ease;
+		-ms-transition: all .3s ease;
+		-o-transition: all .3s ease;
+		transition: all .3s ease;			
+	}
+	.nav-tabs>li>a{
+		color: white;
+		text-shadow: 2px 2px 4px black;
+		border-color:white;
+		border-top:outset;
+		border-right:outset;
+		border-left:outset;
+		border-width:1px;
+		border-radius:10px;
+		background: linear-gradient(
+						rgba(255,255,255,0.7),
+						rgba(255,255,255,0.7));
+		background:  -webkit-linear-gradient(
+						rgba(255,255,255,0.7),
+						rgba(255,255,255,0.7));
+		background:  -o-linear-gradient(
+						rgba(255,255,255,0.7),
+						rgba(255,255,255,0.7));
+		background:  -moz-linear-gradient(
+						rgba(255,255,255,0.7),
+						rgba(255,255,255,0.7));
+		-webkit-transition: all .3s ease;
+		-moz-transition: all .3s ease;
+		-ms-transition: all .3s ease;
+		-o-transition: all .3s ease;
+		transition: all .3s ease;	
+
+	}
+	.nav-tabs>li.active>a{
+		color:black;
+		text-shadow:0px 0px 1px;
+		/* text-shadow: 1px 1px 1px white; */
+		background:     rgba:(255,255,255,0.8);		
+		-webkit-transition: all .3s ease;
+		-moz-transition: all .3s ease;
+		-ms-transition: all .3s ease;
+		-o-transition: all .3s ease;
+		transition: all .3s ease;	
+	}
+	/* nav-tabs{
+		border-bottom:solid;
+	} */
+	.tab-pane{
+		color:white;
+		text-shadow:1px 1px 1px black;
+		border:ridge;
+		height:100%;
+		background:     linear-gradient(
+							rgba(150,110,220,0.5),
+							rgba(50,150,230,0.5));
+		background:  -webkit-linear-gradient(
+							rgba(150,110,220,0.5),
+							rgba(50,150,230,0.5));
+		background:  -o-linear-gradient(
+							rgba(50,150,230,0.7),
+							rgba(50,150,230,0.5));
+		background:  -moz-linear-gradient(
+							rgba(50,150,230,0.7),
+							rgba(50,150,230,0.5));
+
+		padding-left:3em;
+		padding-bottom:10em;
+	}
+	.reslink, h4 a{
+		color:white;
+		text-decoration: underline;
+	}
+	#intro-box{
+		height:100%;
+		width:100%;
+		background: rgba(255,255,255,0.8);
+	}
+	#intro{
+		margin-top:20%;
+		font-size:2em;
+		font-weight: bold;
+	}
+
+
+	.nav-justified>li>a{
+		color: white;
+		text-shadow: 1px 1px 1px black;
+		-webkit-transition: all .5s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+	}
+	.nav-justified>li>a:hover{
+		color: white;
+		background-color: rgba(255,255,255,0.3);
+		text-shadow: 2px 2px 4px black;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform:translateZ(0) scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.20); /* IE 9 */
+    -o-transform:translatZ(0) scale(1.05); /* Opera */
+    transform:translatZ(0) scale(1.05);
+	    box-shadow: 5px 5px 3px #1B1B1B;
+	}
+	#chris-vid{
+		margin-top:4%;
+	}
+	.port-para{
+		text-align:center;
+		font-size:1.25em;
+		margin-top:4%;
+		padding-right:5%;
+		padding-left:3%;
+		
+	}
+	.port-note{
+		text-align:center;
+		font-size:1em;
+		margin-top:10%;
+		padding-right:5%;
+		padding-left:3%;
+		
+	}
+	.port-row{
+		width:98%;
+		text-align:center;
+	}
+	
+	#lead{
+		padding-top:3%;
+	}
+/* JUMBOTRON */
+
+.anim{
+	transform:translate(2000px,0px);
+}
+.jumbotron{
+	border-color: white;
+	border-style: solid;
+	border-width:5px;
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+.j1{
+	background: url('images/johnIntro.jpg') center center;
+	margin-top:2em;
+	/* position:relative; */
+	width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+	color:white;
+	margin-bottom:0;
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+			-moz-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		transition: all 1s ease;		
+}
+.j2{
+	background: url('images/CRCSSLphot.JPG') center center;
+	/* position:relative; */
+	width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+	color:white;
+	margin-bottom:0;
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+			-moz-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		transition: all 1s ease;		
+}
+.j3{
+	background: url('images/DePaulStudioPic.JPG') center center;
+	/* position:relative; */
+	width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+	color:white;
+	margin-bottom:0;
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+			-moz-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		transition: all 1s ease;		
+}
+
+
+footer{
+	margin-top:4em;
+	margin-bottom:2%;
+}
+
+/* BACKGROUND STUFF */
+#aboutbox{
+	border: ridge;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	background:  -webkit-linear-gradient(20deg,
+						rgba(0, 0, 50,0.6),
+						rgba(0, 0, 50,0.6)
+				);
+	background:  -o-linear-gradient(20deg,
+						rgba(0, 0, 50,0.6),
+						rgba(0, 0, 50,0.6)
+				);
+	background:  -moz-linear-gradient(20deg,
+						rgba(0, 0, 50,0.6),
+						rgba(0, 0, 50,0.6)
+				);
+	background: linear-gradient(20deg,
+						rgba(0, 0, 50,0.6),
+						rgba(0, 0, 50,0.6)
+						
+					);
+}
+	#resume{
+		color:white;
+		text-shadow:1px 1px 2px black;
+		font-size:125%;
+		border: ridge;
+		padding-left:3%;
+		padding-right:3%;
+		background:    linear-gradient(45deg,
+							rgba(10,200,170,0.5),
+							rgba(10,200,170,0.9)
+					);
+		background:  -webkit-linear-gradient(45deg,
+							rgba(10,200,170,0.5),
+							rgba(10,200,170,0.9)
+					);
+		background:  -o-linear-gradient(45deg,
+							rgba(10,200,170,0.5),
+							rgba(10,200,170,0.9)
+					);
+		background:  -moz-linear-gradient(45deg,
+							rgba(10,200,170,0.5),
+							rgba(10,200,170,0.9)
+					);
+					/* url('images/congruent_pentagon3.png'); */
+/* 				background:     linear-gradient(
+						rgba(255,0, 0, 0.45), 
+						rgba(255, 0, 100, 0.45)
+						),
+					url('images/congruent_pentagon.png'); */
+	}
+
+	
+	/* NAV STUFF */
+			.nav li a{
+		font-size:2em;
+		border-radius:10px;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-ms-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		transition: all 0.5s ease;	
+	}
+
+	.nav{
+		background: transparent;
+/* 		border:ridge;
+		border-color:#4D4D4D; */
+	}
+/* MD AND LG SCREENS */
+/* MD AND LG SCREENS */
+@media (min-width: 992px){
+	#header1{
+		font-size:3em;
+	}
+	.introheader{
+		margin-top:12%;
+	}
+	#about p{
+		font-size:1.3em;
+		line-height:1.5em;
+	}
+	#entry{
+		height:600px;
+		width:300px;
+		margin-top:10%;
+	}
+
+	body{
+	    font-size:1.7em;
+		font-family: Georgia, Serif;
+		background:  url('images/chicago_welcome6.png');
+		background-attachment: fixed;
+		background-position: center center;
+		background-size: cover;
+		background-repeat: repeat;
+ 		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover; 
+		 overflow-y: scroll;
+	}
+/* 	body.loaded{
+			    font-size:1.7em;
+		font-family: Georgia, Serif;
+		background:  url('images/johnopen5.gif');
+		background-attachment: fixed;
+		background-position: center center;
+		background-size: cover;
+		background-repeat: repeat;
+ 		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover; 
+		 overflow-y: scroll;
+	} */
+	#enter_but{
+	   text-align:center;
+	   display:inline-block;
+	   margin-top:10%;
+	   margin:0 auto;
+		}
+	#aboutbox{
+		padding-left:3%;
+		padding-right:3%;
+		line-height:1.7em;
+		font-size:1.25em;
+		
+	}
+	#about-johnpic{
+		display:block;
+		margin:auto;
+	}
+}
+
+/*SM SCREENS */
+/*SM SCREENS */
+@media (min-width: 70	0px) and (max-width: 991px){
+
+	#enter_but{
+	   text-align:center;
+	   position:absolute;
+	   left:45%;
+	   top:50%; 
+	}
+}
+
+/* XS SCREENS */
+/* XS SCREENS */
+@media (max-width: 991px){
+	body{
+		min-height:1000px;
+		font-size:1.5em;
+		background-attachment: fixed;
+		background-position: center center;
+			background: url('images/chicago_welcomeM.png');
+		   background-repeat: repeat;
+		   background-size: cover;
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  overflow-y:scroll;
+
+		}
+
+	#enter_but{
+	   text-align:center;
+	   position:absolute;
+	   left:25%;
+	   top:50%; 
+	  -webkit-transition: all 0.5s ease-in-out;
+	  -moz-transition: all 0.5s ease-in-out;
+	  -o-transition: all 0.5s ease-in-out;
+	  transition: all 0.5s ease-in-out;
+	}
+	.dropdown{
+		padding-top:5px;
+	}
+	.tab-pane{
+		width:100%;
+		padding-left:1em;
+	}
+	.container{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.port-cont{
+		padding-left:0px;
+	}
+	#my_tab{
+		width:100%;
+		padding-left:0;
+		float:left;
+		margin-left:0;
+	}
+	audio{
+		margin-left:5px;
+	}
+	#dropdownMenu1{
+		border-width:1px;
+		border-color:black;
+		font-size:120%;
+		background:rgba(255,255,255,0.75);
+	}
+	.jumbotron{
+		height:150%;
+		/* background: rgba(0,0,0,0.8); */
+	}
+
+	#intro{
+		color:transparent;
+		font-size:1.3em;
+	}
+	#aboutbox, #resume{
+		width:98%;
+		font-size:110%;
+		padding-left:2px;
+		padding-right:2px;
+		margin-left:1%;
+	}
+	.jumboM{
+		background: rgba(0,0,0,0.6);
+		border:solid;
+		border-color:white;
+		border-width:2px;
+		margin-top:2.5%;
+	}
+	#introM{
+		color:white;
+		font-size:1.4em;
+		padding-top:0.5em;
+		padding-right:0.5em;
+		padding-left:0.5em;
+	}
+	#about-johnpic{
+		padding-left:2.5%;
+		padding-right:2.5%;
+		margin-bottom:4%;
+		height:100%;
+		width:100%;
+	}
+}

@@ -66,14 +66,19 @@
 	<div class="container-fluid">
 	  <h1 id="header1" class="name">John Micensky</h1>
 		  <h2 class="name">Sound Engineer</h2>
-	<div class="jumbotron anim" id="home_jumbo">
-	  		<p class="" id="intro">My name is John Micensky and this is my personal website! On my site there is a collection of work I've created or contributed to as well as my resume and a little about myself.</p>
+	<button class="page-button" id="index-button" onclick="aud_play()"><span class="glyphicon glyphicon-pause" aria-hidden="true"></span></button>
+	<div class="jumbotron j1 anim" id="home_jumbo">
+	  		<p class="" id="intro"> </p>
 	</div>
-	<div class="jumboM hidden-md hidden-lg">
-		<p class="" id="introM">My name is John Micensky and this is my personal website! On my site there is a collection of work I've created or contributed to as well as my resume and a little about myself.</p>
+
+	<div class="jumbotron j2 anim" id="home_jumbo">
+	  		<p class="" id="intro"> </p>
 	</div>
+
+	<div class="jumbotron j3 anim" id="home_jumbo">
+	  		<p class="" id="intro"> </p>
 	</div>
-	<button class="page-button" id="index-button" onclick="aud_play()"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
+
 	</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -85,6 +90,7 @@
 		$('.jumbotron').hide();
 		$('.jumboM').hide();
 		$('.dropdown').hide();
+		$('#otherpics').hide();
 
 		//$('.nav').hide();
 		$('#enter_but').click(function(){
@@ -99,10 +105,11 @@
 			$('.nav li a').removeClass('flyin-nav');
 			$('.name').fadeIn(1500);
 			$('.page-button').fadeIn("slow");
+			$('#otherpics').fadeIn("slow");
 			});
 
 		});
-		
+
 		function aud_play() {
 			
 		  var myAudio = document.getElementById("index-song");
