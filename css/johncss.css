@@ -93,7 +93,8 @@ h1, h2{
 }
 #about-johnpic{
 	padding-bottom:3%;
-	height:75%;
+	width: 70%;
+	height:70%;
 }
 /* RESUME CSS */
 #requests, #name-resume{
@@ -189,17 +190,17 @@ h1, h2{
 		border:ridge;
 		height:100%;
 		background:     linear-gradient(
-							rgba(50,150,230,0.7),
-							rgba(50,150,230,0.5));
+							rgba(0, 0, 50,0.5),
+							rgba(0, 0, 50,0.8));
 		background:  -webkit-linear-gradient(
-							rgba(50,150,230,0.7),
-							rgba(50,150,230,0.5));
+							rgba(0, 0, 50,0.5),
+							rgba(0, 0, 50,0.8));
 		background:  -o-linear-gradient(
-							rgba(50,150,230,0.7),
-							rgba(50,150,230,0.5));
+							rgba(0, 0, 50,0.5),
+							rgba(0, 0, 50,0.8));
 		background:  -moz-linear-gradient(
-							rgba(50,150,230,0.7),
-							rgba(50,150,230,0.5));
+							rgba(0, 0, 50,0.5),
+							rgba(0, 0, 50,0.8));
 
 		padding-left:3em;
 		padding-bottom:10em;
@@ -340,21 +341,21 @@ footer{
 	border: ridge;
 	color: white;
 	text-shadow: 1px 1px 1px black;
-	background:  -webkit-linear-gradient(20deg,
-						rgba(0, 0, 50,0.6),
-						rgba(0, 0, 50,0.6)
+	background:  -webkit-linear-gradient(
+						rgba(0, 0, 50,0.5),
+						rgba(0, 0, 50,0.8)
 				);
-	background:  -o-linear-gradient(20deg,
-						rgba(0, 0, 50,0.6),
-						rgba(0, 0, 50,0.6)
+	background:  -o-linear-gradient(
+						rgba(0, 0, 50,0.5),
+						rgba(0, 0, 50,0.8)
 				);
-	background:  -moz-linear-gradient(20deg,
-						rgba(0, 0, 50,0.6),
-						rgba(0, 0, 50,0.6)
+	background:  -moz-linear-gradient(
+						rgba(0, 0, 50,0.5),
+						rgba(0, 0, 50,0.8)
 				);
-	background: linear-gradient(20deg,
-						rgba(0, 0, 50,0.6),
-						rgba(0, 0, 50,0.6)
+	background: linear-gradient(
+						rgba(0, 0, 50,0.5),
+						rgba(0, 0, 50,0.8)
 						
 					);
 }
@@ -366,20 +367,20 @@ footer{
 		padding-left:3%;
 		padding-right:3%;
 		background:    linear-gradient(45deg,
-							rgba(10,200,170,0.5),
-							rgba(10,200,170,0.9)
+							rgba(0, 0, 50,0.6),
+							rgba(0, 0, 50,0.8)
 					);
 		background:  -webkit-linear-gradient(45deg,
-							rgba(10,200,170,0.5),
-							rgba(10,200,170,0.9)
+							rgba(0, 0, 50,0.6),
+							rgba(0, 0, 50,0.8)
 					);
 		background:  -o-linear-gradient(45deg,
-							rgba(10,200,170,0.5),
-							rgba(10,200,170,0.9)
+							rgba(0, 0, 50,0.6),
+							rgba(0, 0, 50,0.8)
 					);
 		background:  -moz-linear-gradient(45deg,
-							rgba(10,200,170,0.5),
-							rgba(10,200,170,0.9)
+							rgba(0, 0, 50,0.6),
+							rgba(0, 0, 50,0.8)
 					);
 					/* url('images/congruent_pentagon3.png'); */
 /* 				background:     linear-gradient(

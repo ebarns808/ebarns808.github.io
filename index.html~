@@ -66,6 +66,7 @@
 	<div class="container-fluid">
 	  <h1 id="header1" class="name">John Micensky</h1>
 		  <h2 class="name">Sound Engineer</h2>
+	<button class="page-button" id="index-button" onclick="aud_play()"><span class="glyphicon glyphicon-pause" aria-hidden="true"></span></button>
 	<div class="jumbotron j1 anim" id="home_jumbo">
 	  		<p class="" id="intro"> </p>
 	</div>
@@ -78,8 +79,6 @@
 	  		<p class="" id="intro"> </p>
 	</div>
 
-
-	<button class="page-button" id="index-button" onclick="aud_play()"><span class="glyphicon glyphicon-pause" aria-hidden="true"></span></button>
 	</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
